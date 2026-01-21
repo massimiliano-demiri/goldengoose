@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const isDev = import.meta.env.DEV
+const isDev = import.meta.env.MODE === 'development'
 const API_URL = import.meta.env.VITE_API_URL || '/api'
 
 const api = axios.create({
@@ -13,7 +13,9 @@ const api = axios.create({
 // In produzione usa dati locali dalla build
 const getDataPath = (file) => {
   if (isDev) return null
-  return `/goldengoose/data/${file}`
+  // Usa il base URL di Vite per il path corretto
+  const base = import.meta.env.BASE_URL || '/goldengoose/'
+  return `${base}data/${file}`
 }
 
 export const getProducts = async (params = {}) => {
