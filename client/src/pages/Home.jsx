@@ -13,8 +13,7 @@ function Home() {
 
   const loadData = async () => {
     try {
-      const response = await getProducts()
-      const products = response.data
+      const products = await getProducts()
       
       // Filtra prodotti con immagini valide (no loghi Yupoo)
       const validProducts = products.filter(p => {

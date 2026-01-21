@@ -12,9 +12,11 @@ import Admin from './pages/Admin'
 import './App.css'
 
 function App() {
+  const basename = import.meta.env.BASE_URL || '/'
+  
   return (
     <CartProvider>
-      <Router>
+      <Router basename={basename}>
         <div className="app">
           <Navbar />
           <main className="main-content">

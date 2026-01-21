@@ -27,8 +27,8 @@ function Products() {
 
   const loadCategories = async () => {
     try {
-      const response = await getCategories()
-      setCategories(response.data)
+      const categories = await getCategories()
+      setCategories(categories)
     } catch (err) {
       console.error('Errore nel caricamento delle categorie:', err)
     }
@@ -42,8 +42,8 @@ function Products() {
       if (filters.search) params.search = filters.search
       if (filters.inStock) params.inStock = 'true'
       
-      const response = await getProducts(params)
-      setProducts(response.data)
+      const products = await getProducts(params)
+      setProducts(products)
       setError(null)
     } catch (err) {
       setError('Errore nel caricamento dei prodotti')
