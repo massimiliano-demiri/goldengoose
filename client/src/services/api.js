@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const isDev = import.meta.env.MODE === 'development'
+// Per ora usiamo sempre i file JSON statici per evitare problemi con il backend
+const isDev = false // Disabilitato: import.meta.env.MODE === 'development'
 const API_URL = import.meta.env.VITE_API_URL || '/api'
 
 const api = axios.create({
