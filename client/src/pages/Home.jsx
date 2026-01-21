@@ -1,7 +1,65 @@
 import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { getProducts } from '../services/api'
 import './Home.css'
 
 function Home() {
+  const [featuredProducts, setFeaturedProducts] = useState([])
+  const [stats, setStats] = useState({ total: 0, categories: 0, inStock: 0 })
+
+  useEffect(() => {
+    loadData()
+  }, [])
+
+  const loadData = async () => {
+    try {
+      const response = await getProducts()
+      const products = response.data
+      
+      // Filtra prodotti con immagini valide (no loghi Yupoo)
+      const validProducts = products.filter(p => {
+        if (!p.images || p.images.length === 0 || !p.inStock) return false
+        
+        const hasValidImage = p.images.some(img => {
+          const url = img.toLowerCase()
+          const invalidPatterns = ['logo', 'watermark', 'qrcode', '/avatar/', 'banner', 'icon',
+                                  'wechat', 'whatsapp', 'contact', '_logo', 'yupoo_logo', 'album_cover']
+          const hasInvalidPattern = invalidPatterns.some(pattern => url.includes(pattern))
+          const isValidFormat = /\.(jpg|jpeg|png|webp)$/i.test(url)
+          const hasSmallSize = /\d+x\d+/.test(url) && parseInt(url.match(/(\d+)x\d+/)?.[1] || '999') < 200
+          
+          return !hasInvalidPattern && isValidFormat && !hasSmallSize
+        })
+        
+        return hasValidImage
+      })
+      
+      // Filtra immagini valide per ogni prodotto
+      const productsWithValidImages = validProducts.map(p => ({
+        ...p,
+        images: p.images.filter(img => {
+          const url = img.toLowerCase()
+          const invalidPatterns = ['logo', 'watermark', 'qrcode', '/avatar/', 'banner', 'icon',
+                                  'wechat', 'whatsapp', 'contact', '_logo', 'yupoo_logo', 'album_cover']
+          const hasInvalidPattern = invalidPatterns.some(pattern => url.includes(pattern))
+          const isValidFormat = /\.(jpg|jpeg|png|webp)$/i.test(url)
+          const hasSmallSize = /\d+x\d+/.test(url) && parseInt(url.match(/(\d+)x\d+/)?.[1] || '999') < 200
+          
+          return !hasInvalidPattern && isValidFormat && !hasSmallSize
+        })
+      }))
+      
+      const shuffled = productsWithValidImages.sort(() => 0.5 - Math.random())
+      setFeaturedProducts(shuffled.slice(0, 3))
+      
+      const categories = [...new Set(products.map(p => p.category))].length
+      const inStock = products.filter(p => p.inStock).length
+      setStats({ total: products.length, categories, inStock })
+    } catch (err) {
+      console.error('Errore caricamento:', err)
+    }
+  }
+
   return (
     <div className="home fade-in">
       <section className="hero">
@@ -12,11 +70,60 @@ function Home() {
             Scopri la collezione esclusiva di sneakers artigianali Golden Goose.
             Design unico, qualità premium, stile inconfondibile.
           </p>
+          <div className="hero-stats">
+            <div className="stat-item">
+              <span className="stat-number">{stats.total}</span>
+              <span className="stat-label">Prodotti</span>
+            </div>
+            <div className="stat-item">
+              <span className="stat-number">{stats.categories}</span>
+              <span className="stat-label">Categorie</span>
+            </div>
+            <div className="stat-item">
+              <span className="stat-number">{stats.inStock}</span>
+              <span className="stat-label">Disponibili</span>
+            </div>
+          </div>
           <Link to="/products" className="cta-button">
             Esplora la Collezione
           </Link>
         </div>
       </section>
+
+      {featuredProducts.length > 0 && (
+        <section className="featured-section">
+          <h2>In Evidenza</h2>
+          <div className="featured-grid">
+            {featuredProducts.map(product => (
+              <Link 
+                key={product.id}
+                to={`/product/${product.id}`}
+                className="featured-card"
+              >
+                <div className="featured-image">
+                  <img src={product.images[0]} alt={product.name} />
+                  {product.discount > 0 && (
+                    <span className="discount-tag">-{product.discount}%</span>
+                  )}
+                </div>
+                <div className="featured-info">
+                  <h3>{product.name}</h3>
+                  <div className="featured-price">
+                    {product.discount > 0 ? (
+                      <>
+                        <span className="price-old">€{product.price.toFixed(2)}</span>
+                        <span className="price-new">€{(product.price * (1 - product.discount / 100)).toFixed(2)}</span>
+                      </>
+                    ) : (
+                      <span className="price-new">€{product.price.toFixed(2)}</span>
+                    )}
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="features">
         <div className="feature-card">
