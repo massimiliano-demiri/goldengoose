@@ -22,3 +22,9 @@ fs.readdirSync(srcDir).forEach(file => {
 });
 
 console.log('✓ Dati copiati con successo in dist/data');
+
+// Copia index.html come 404.html per il routing di GitHub Pages
+const indexPath = path.join(__dirname, 'dist', 'index.html');
+const notFoundPath = path.join(__dirname, 'dist', '404.html');
+fs.copyFileSync(indexPath, notFoundPath);
+console.log('✓ Creato 404.html per GitHub Pages routing');
