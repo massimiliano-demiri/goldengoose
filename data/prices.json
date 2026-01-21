@@ -1,0 +1,3002 @@
+{
+  "325943": {
+    "price": 128,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325947": {
+    "price": 135,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325948": {
+    "price": 182,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325950": {
+    "price": 116,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325954": {
+    "price": 277,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325956": {
+    "price": 241,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325966": {
+    "price": 102,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325968": {
+    "price": 193,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325973": {
+    "price": 125,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325974": {
+    "price": 221,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325975": {
+    "price": 151,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325978": {
+    "price": 154,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325985": {
+    "price": 168,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325988": {
+    "price": 113,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325989": {
+    "price": 122,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325991": {
+    "price": 275,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325993": {
+    "price": 111,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325998": {
+    "price": 172,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "325999": {
+    "price": 276,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326002": {
+    "price": 271,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326004": {
+    "price": 186,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326005": {
+    "price": 205,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326006": {
+    "price": 289,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326008": {
+    "price": 267,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326010": {
+    "price": 228,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326012": {
+    "price": 156,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326014": {
+    "price": 177,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326022": {
+    "price": 172,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326023": {
+    "price": 187,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326025": {
+    "price": 222,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326026": {
+    "price": 298,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326031": {
+    "price": 283,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326033": {
+    "price": 163,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326034": {
+    "price": 222,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326036": {
+    "price": 178,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326044": {
+    "price": 106,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326048": {
+    "price": 185,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326054": {
+    "price": 227,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326055": {
+    "price": 179,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326056": {
+    "price": 240,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326060": {
+    "price": 214,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326070": {
+    "price": 298,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326078": {
+    "price": 180,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326081": {
+    "price": 176,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326082": {
+    "price": 153,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326083": {
+    "price": 291,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326084": {
+    "price": 207,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326086": {
+    "price": 160,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326088": {
+    "price": 231,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326089": {
+    "price": 174,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326091": {
+    "price": 238,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326092": {
+    "price": 296,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326094": {
+    "price": 245,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326095": {
+    "price": 110,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326099": {
+    "price": 104,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326100": {
+    "price": 234,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326102": {
+    "price": 149,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326103": {
+    "price": 169,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326107": {
+    "price": 105,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326108": {
+    "price": 252,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326111": {
+    "price": 104,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326113": {
+    "price": 281,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326117": {
+    "price": 169,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326118": {
+    "price": 297,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326120": {
+    "price": 182,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326123": {
+    "price": 177,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326125": {
+    "price": 273,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326127": {
+    "price": 285,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326133": {
+    "price": 130,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326136": {
+    "price": 210,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326139": {
+    "price": 236,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326140": {
+    "price": 180,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326145": {
+    "price": 146,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326147": {
+    "price": 124,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326153": {
+    "price": 245,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326158": {
+    "price": 197,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326170": {
+    "price": 251,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326178": {
+    "price": 252,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326182": {
+    "price": 135,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326183": {
+    "price": 174,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326208": {
+    "price": 198,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326210": {
+    "price": 195,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326223": {
+    "price": 109,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326232": {
+    "price": 142,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326233": {
+    "price": 267,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326237": {
+    "price": 236,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326241": {
+    "price": 205,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326242": {
+    "price": 231,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326243": {
+    "price": 183,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326244": {
+    "price": 208,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326245": {
+    "price": 183,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326247": {
+    "price": 189,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "326316": {
+    "price": 130,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "2796603": {
+    "price": 263,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "5257216": {
+    "price": 198,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "5257228": {
+    "price": 174,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "5257250": {
+    "price": 299,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "5257271": {
+    "price": 229,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "5257283": {
+    "price": 103,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "7361851": {
+    "price": 144,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "7361935": {
+    "price": 240,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421713": {
+    "price": 160,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421733": {
+    "price": 168,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421754": {
+    "price": 162,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421773": {
+    "price": 272,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421797": {
+    "price": 293,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421825": {
+    "price": 236,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421840": {
+    "price": 159,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421851": {
+    "price": 197,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421872": {
+    "price": 133,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421880": {
+    "price": 241,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "8421892": {
+    "price": 140,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11827869": {
+    "price": 197,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11827912": {
+    "price": 297,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11827928": {
+    "price": 118,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11827958": {
+    "price": 212,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11827993": {
+    "price": 116,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11828013": {
+    "price": 191,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11828026": {
+    "price": 106,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11828036": {
+    "price": 236,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11828087": {
+    "price": 165,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11828103": {
+    "price": 218,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "11828153": {
+    "price": 209,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "13489500": {
+    "price": 283,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "13489513": {
+    "price": 248,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "13489532": {
+    "price": 235,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "13489536": {
+    "price": 238,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "13489538": {
+    "price": 101,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "14457386": {
+    "price": 259,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "14457422": {
+    "price": 202,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "14457495": {
+    "price": 139,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "14457530": {
+    "price": 243,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "14457584": {
+    "price": 235,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "14457663": {
+    "price": 294,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "14457757": {
+    "price": 152,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "15147177": {
+    "price": 205,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "15849677": {
+    "price": 241,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "15849692": {
+    "price": 196,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "15849700": {
+    "price": 262,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "15849708": {
+    "price": 114,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "15850019": {
+    "price": 174,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462257": {
+    "price": 113,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462296": {
+    "price": 243,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462341": {
+    "price": 123,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462359": {
+    "price": 188,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462375": {
+    "price": 155,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462411": {
+    "price": 183,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462442": {
+    "price": 149,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462468": {
+    "price": 163,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462482": {
+    "price": 194,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462495": {
+    "price": 258,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462577": {
+    "price": 205,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462603": {
+    "price": 202,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462623": {
+    "price": 159,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462629": {
+    "price": 180,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17462638": {
+    "price": 236,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "17497679": {
+    "price": 102,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "20219069": {
+    "price": 119,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "20219142": {
+    "price": 290,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "20219149": {
+    "price": 199,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "20219156": {
+    "price": 191,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "20219188": {
+    "price": 218,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "61799702": {
+    "price": 278,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "61799707": {
+    "price": 107,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "68451524": {
+    "price": 296,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "68451612": {
+    "price": 236,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "68451689": {
+    "price": 230,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "68451734": {
+    "price": 127,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "68451757": {
+    "price": 211,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "68451801": {
+    "price": 213,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "68451857": {
+    "price": 150,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "68451910": {
+    "price": 292,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "68451954": {
+    "price": 258,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "68451979": {
+    "price": 112,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "71037641": {
+    "price": 240,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "71037792": {
+    "price": 250,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "71218541": {
+    "price": 236,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78925077": {
+    "price": 185,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78925110": {
+    "price": 273,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78925160": {
+    "price": 283,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78925394": {
+    "price": 230,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78925433": {
+    "price": 218,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78925459": {
+    "price": 148,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78925520": {
+    "price": 125,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78926656": {
+    "price": 165,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78926675": {
+    "price": 159,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78926704": {
+    "price": 163,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78926742": {
+    "price": 117,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78926765": {
+    "price": 128,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78926858": {
+    "price": 184,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78926878": {
+    "price": 125,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78926920": {
+    "price": 147,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78926930": {
+    "price": 211,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78926958": {
+    "price": 168,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "78927001": {
+    "price": 190,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107056": {
+    "price": 216,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107087": {
+    "price": 238,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107116": {
+    "price": 174,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107142": {
+    "price": 233,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107163": {
+    "price": 264,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107197": {
+    "price": 292,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107212": {
+    "price": 224,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107236": {
+    "price": 184,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107258": {
+    "price": 188,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107293": {
+    "price": 287,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107314": {
+    "price": 172,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82107344": {
+    "price": 299,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82348089": {
+    "price": 147,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82359773": {
+    "price": 182,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "82359777": {
+    "price": 159,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84408673": {
+    "price": 243,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84409159": {
+    "price": 268,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84409184": {
+    "price": 141,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84409294": {
+    "price": 217,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84409318": {
+    "price": 140,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411218": {
+    "price": 169,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411261": {
+    "price": 233,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411290": {
+    "price": 296,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411314": {
+    "price": 254,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411339": {
+    "price": 159,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411366": {
+    "price": 260,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411390": {
+    "price": 145,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411406": {
+    "price": 272,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411486": {
+    "price": 210,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411516": {
+    "price": 191,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411537": {
+    "price": 103,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411563": {
+    "price": 200,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411590": {
+    "price": 222,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411612": {
+    "price": 261,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "84411630": {
+    "price": 138,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85800888": {
+    "price": 194,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85800942": {
+    "price": 170,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85800998": {
+    "price": 166,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85801083": {
+    "price": 148,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85801103": {
+    "price": 177,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85801130": {
+    "price": 264,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85801157": {
+    "price": 100,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85801200": {
+    "price": 246,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85801234": {
+    "price": 176,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85801266": {
+    "price": 288,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85801349": {
+    "price": 107,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85801501": {
+    "price": 295,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85801546": {
+    "price": 218,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85948712": {
+    "price": 252,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85948785": {
+    "price": 193,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85949555": {
+    "price": 207,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85949593": {
+    "price": 140,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85950168": {
+    "price": 124,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85950202": {
+    "price": 260,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "85950231": {
+    "price": 197,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "88330228": {
+    "price": 162,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "88330287": {
+    "price": 255,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984794": {
+    "price": 115,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984824": {
+    "price": 150,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984842": {
+    "price": 231,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984858": {
+    "price": 193,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984875": {
+    "price": 100,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984889": {
+    "price": 119,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984906": {
+    "price": 175,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984923": {
+    "price": 145,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984939": {
+    "price": 292,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984961": {
+    "price": 131,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984977": {
+    "price": 122,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984988": {
+    "price": 131,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91984994": {
+    "price": 145,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91985001": {
+    "price": 226,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91985009": {
+    "price": 113,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91985018": {
+    "price": 234,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91985027": {
+    "price": 241,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91985036": {
+    "price": 199,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91985046": {
+    "price": 241,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91985061": {
+    "price": 137,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "91985072": {
+    "price": 209,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "94712153": {
+    "price": 119,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "94712237": {
+    "price": 149,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "94712295": {
+    "price": 273,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "94712364": {
+    "price": 246,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "94712427": {
+    "price": 220,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "94712559": {
+    "price": 154,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "94712613": {
+    "price": 141,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "94712679": {
+    "price": 298,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "94712732": {
+    "price": 138,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "94712791": {
+    "price": 199,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97243920": {
+    "price": 117,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244064": {
+    "price": 208,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244228": {
+    "price": 216,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244305": {
+    "price": 227,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244353": {
+    "price": 222,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244421": {
+    "price": 126,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244474": {
+    "price": 184,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244522": {
+    "price": 150,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244569": {
+    "price": 265,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244631": {
+    "price": 114,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244694": {
+    "price": 221,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244753": {
+    "price": 153,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244800": {
+    "price": 133,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244850": {
+    "price": 261,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244904": {
+    "price": 265,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "97244950": {
+    "price": 164,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "99516233": {
+    "price": 238,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "99516383": {
+    "price": 232,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "99516406": {
+    "price": 289,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "99516416": {
+    "price": 133,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "99516434": {
+    "price": 223,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "100022711": {
+    "price": 154,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "100022729": {
+    "price": 119,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "100022737": {
+    "price": 211,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "100022746": {
+    "price": 128,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "100022764": {
+    "price": 129,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "100022771": {
+    "price": 132,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "100022781": {
+    "price": 278,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "100022821": {
+    "price": 143,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "100022834": {
+    "price": 284,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "100022896": {
+    "price": 220,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "105328490": {
+    "price": 281,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "105328528": {
+    "price": 170,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "105328566": {
+    "price": 293,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "105328588": {
+    "price": 100,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "105328606": {
+    "price": 164,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "105328616": {
+    "price": 238,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "105328631": {
+    "price": 217,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049786": {
+    "price": 166,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049814": {
+    "price": 125,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049838": {
+    "price": 288,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049857": {
+    "price": 116,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049875": {
+    "price": 284,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049887": {
+    "price": 238,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049905": {
+    "price": 121,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049924": {
+    "price": 190,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049942": {
+    "price": 118,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049967": {
+    "price": 285,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109049989": {
+    "price": 242,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109050017": {
+    "price": 251,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109050035": {
+    "price": 141,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109050048": {
+    "price": 276,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109050974": {
+    "price": 294,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109050991": {
+    "price": 211,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109051014": {
+    "price": 209,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109051038": {
+    "price": 246,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109051056": {
+    "price": 291,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109051091": {
+    "price": 261,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109051153": {
+    "price": 202,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "109051174": {
+    "price": 135,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "112813350": {
+    "price": 262,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "112813359": {
+    "price": 153,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "112813366": {
+    "price": 258,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "112813378": {
+    "price": 155,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "112813386": {
+    "price": 126,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "112813396": {
+    "price": 110,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "112813406": {
+    "price": 224,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "112813411": {
+    "price": 153,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538560": {
+    "price": 219,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538577": {
+    "price": 152,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538586": {
+    "price": 127,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538593": {
+    "price": 166,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538606": {
+    "price": 112,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538622": {
+    "price": 290,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538633": {
+    "price": 238,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538648": {
+    "price": 266,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538656": {
+    "price": 151,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538672": {
+    "price": 163,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538690": {
+    "price": 138,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538702": {
+    "price": 286,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538722": {
+    "price": 271,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538737": {
+    "price": 221,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "113538747": {
+    "price": 177,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114467982": {
+    "price": 136,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114467998": {
+    "price": 270,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468011": {
+    "price": 186,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468023": {
+    "price": 229,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468036": {
+    "price": 182,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468419": {
+    "price": 122,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468436": {
+    "price": 188,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468449": {
+    "price": 220,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468475": {
+    "price": 262,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468499": {
+    "price": 179,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468514": {
+    "price": 237,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468532": {
+    "price": 170,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468551": {
+    "price": 185,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468561": {
+    "price": 153,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468571": {
+    "price": 186,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468578": {
+    "price": 165,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468603": {
+    "price": 255,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468630": {
+    "price": 288,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468640": {
+    "price": 224,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468654": {
+    "price": 280,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468672": {
+    "price": 146,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468688": {
+    "price": 241,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468698": {
+    "price": 282,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114468712": {
+    "price": 175,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114753701": {
+    "price": 219,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114753725": {
+    "price": 214,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114753746": {
+    "price": 236,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114753774": {
+    "price": 125,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114778765": {
+    "price": 178,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114778830": {
+    "price": 286,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114778862": {
+    "price": 227,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114778906": {
+    "price": 217,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114778936": {
+    "price": 236,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114778971": {
+    "price": 139,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114779002": {
+    "price": 228,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "114779036": {
+    "price": 146,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "117000797": {
+    "price": 260,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "119718368": {
+    "price": 140,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "120946002": {
+    "price": 217,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "120946229": {
+    "price": 207,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "120946399": {
+    "price": 213,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "120946431": {
+    "price": 222,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "120946594": {
+    "price": 193,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "120946661": {
+    "price": 181,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "120946787": {
+    "price": 280,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "120947003": {
+    "price": 193,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "121754025": {
+    "price": 170,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "121754049": {
+    "price": 264,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "121754073": {
+    "price": 145,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "121754103": {
+    "price": 269,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "121754129": {
+    "price": 173,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "121754155": {
+    "price": 267,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "122209043": {
+    "price": 115,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "122475554": {
+    "price": 162,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "123849831": {
+    "price": 223,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "126817746": {
+    "price": 148,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954224": {
+    "price": 244,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954251": {
+    "price": 223,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954260": {
+    "price": 297,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954275": {
+    "price": 239,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954288": {
+    "price": 124,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954299": {
+    "price": 186,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954309": {
+    "price": 253,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954320": {
+    "price": 251,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954350": {
+    "price": 102,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954364": {
+    "price": 155,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954375": {
+    "price": 103,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954386": {
+    "price": 222,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954396": {
+    "price": 153,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "128954409": {
+    "price": 121,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "129026502": {
+    "price": 113,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "133519333": {
+    "price": 211,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "133519613": {
+    "price": 167,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "133519789": {
+    "price": 226,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "133519912": {
+    "price": 250,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "133520093": {
+    "price": 164,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "133520282": {
+    "price": 153,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "133520807": {
+    "price": 227,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "134928205": {
+    "price": 160,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "134928269": {
+    "price": 177,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "134928365": {
+    "price": 213,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135197948": {
+    "price": 256,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135197998": {
+    "price": 284,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198056": {
+    "price": 175,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198089": {
+    "price": 155,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198108": {
+    "price": 115,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198137": {
+    "price": 180,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198193": {
+    "price": 181,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198215": {
+    "price": 154,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198245": {
+    "price": 257,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198265": {
+    "price": 137,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198298": {
+    "price": 280,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198323": {
+    "price": 221,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198339": {
+    "price": 190,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198358": {
+    "price": 236,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198374": {
+    "price": 161,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198394": {
+    "price": 225,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198407": {
+    "price": 100,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198421": {
+    "price": 183,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "135198447": {
+    "price": 217,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138183777": {
+    "price": 133,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138183828": {
+    "price": 163,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138183868": {
+    "price": 194,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138183933": {
+    "price": 136,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138183981": {
+    "price": 134,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138184046": {
+    "price": 169,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138184459": {
+    "price": 157,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138184581": {
+    "price": 169,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138184692": {
+    "price": 194,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138184757": {
+    "price": 181,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138184825": {
+    "price": 127,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "138184874": {
+    "price": 252,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "151810216": {
+    "price": 199,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155907691": {
+    "price": 213,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155907788": {
+    "price": 140,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155907844": {
+    "price": 163,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155907917": {
+    "price": 133,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155907979": {
+    "price": 132,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155908041": {
+    "price": 259,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155908085": {
+    "price": 291,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155908153": {
+    "price": 150,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155929093": {
+    "price": 231,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155929148": {
+    "price": 152,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155929224": {
+    "price": 187,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155929306": {
+    "price": 149,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155929382": {
+    "price": 209,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155929486": {
+    "price": 204,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "155929609": {
+    "price": 261,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164373419": {
+    "price": 145,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374345": {
+    "price": 192,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374392": {
+    "price": 204,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374433": {
+    "price": 186,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374467": {
+    "price": 263,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374503": {
+    "price": 286,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374538": {
+    "price": 239,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374572": {
+    "price": 168,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374609": {
+    "price": 243,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374652": {
+    "price": 189,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374681": {
+    "price": 208,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374723": {
+    "price": 144,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374763": {
+    "price": 160,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374799": {
+    "price": 104,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374834": {
+    "price": 107,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164374868": {
+    "price": 162,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164837286": {
+    "price": 278,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164837389": {
+    "price": 190,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164837430": {
+    "price": 149,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164837455": {
+    "price": 192,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164837553": {
+    "price": 168,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164837586": {
+    "price": 222,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164837612": {
+    "price": 255,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "164837634": {
+    "price": 133,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "177643765": {
+    "price": 269,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "177643916": {
+    "price": 212,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "182155046": {
+    "price": 187,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "182155120": {
+    "price": 162,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "182155146": {
+    "price": 205,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "182155176": {
+    "price": 114,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "182155188": {
+    "price": 183,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "182155222": {
+    "price": 209,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "182155247": {
+    "price": 165,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "182155366": {
+    "price": 248,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185899296": {
+    "price": 237,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185899391": {
+    "price": 183,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185899441": {
+    "price": 179,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185899504": {
+    "price": 162,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185899600": {
+    "price": 125,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185899734": {
+    "price": 294,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185899896": {
+    "price": 234,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185900346": {
+    "price": 294,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185900406": {
+    "price": 208,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185900463": {
+    "price": 196,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "185900521": {
+    "price": 107,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188836560": {
+    "price": 199,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188836645": {
+    "price": 131,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188836697": {
+    "price": 286,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188836746": {
+    "price": 154,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188836788": {
+    "price": 261,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188836879": {
+    "price": 241,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188836921": {
+    "price": 255,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188836957": {
+    "price": 248,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837132": {
+    "price": 182,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837197": {
+    "price": 204,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837255": {
+    "price": 188,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837326": {
+    "price": 268,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837370": {
+    "price": 117,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837415": {
+    "price": 195,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837467": {
+    "price": 250,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837515": {
+    "price": 243,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837558": {
+    "price": 169,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837603": {
+    "price": 206,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837639": {
+    "price": 143,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837689": {
+    "price": 118,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837766": {
+    "price": 202,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837823": {
+    "price": 206,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837897": {
+    "price": 102,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837934": {
+    "price": 109,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188837966": {
+    "price": 211,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188838015": {
+    "price": 103,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188838051": {
+    "price": 240,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188838098": {
+    "price": 255,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188838147": {
+    "price": 147,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188838182": {
+    "price": 227,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188838267": {
+    "price": 195,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188838313": {
+    "price": 174,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "188838368": {
+    "price": 148,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193036976": {
+    "price": 213,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193037023": {
+    "price": 254,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193037057": {
+    "price": 147,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193446683": {
+    "price": 180,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193446745": {
+    "price": 176,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193446781": {
+    "price": 228,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193446825": {
+    "price": 256,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193446869": {
+    "price": 211,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193446916": {
+    "price": 208,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193446973": {
+    "price": 143,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "193447014": {
+    "price": 220,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "194690980": {
+    "price": 292,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210365656": {
+    "price": 288,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210365761": {
+    "price": 256,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210365797": {
+    "price": 145,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210365851": {
+    "price": 186,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210365901": {
+    "price": 268,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210365972": {
+    "price": 229,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210366025": {
+    "price": 253,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210366073": {
+    "price": 109,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210366119": {
+    "price": 153,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210366154": {
+    "price": 102,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210366209": {
+    "price": 272,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210366253": {
+    "price": 121,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210366307": {
+    "price": 231,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210366355": {
+    "price": 298,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "210366408": {
+    "price": 296,
+    "currency": "EUR",
+    "inStock": true
+  },
+  "216314183": {
+    "price": 290,
+    "currency": "EUR",
+    "inStock": true
+  }
+}
