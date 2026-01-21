@@ -23,6 +23,12 @@ export const getProducts = async (params = {}) => {
     const response = await axios.get(getDataPath('products.json'))
     let products = response.data
     
+    // Assicurati che products sia un array
+    if (!Array.isArray(products)) {
+      console.error('Products is not an array:', products)
+      return []
+    }
+    
     // Applica filtri
     if (params.category) {
       products = products.filter(p => p.category === params.category)
@@ -56,6 +62,10 @@ export const getProduct = async (id) => {
 export const getCategories = async () => {
   if (!isDev) {
     const products = await getProducts()
+    if (!Array.isArray(products)) {
+      console.error('Products is not an array in getCategories:', products)
+      return []
+    }
     return [...new Set(products.map(p => p.category))].sort()
   }
   const response = await api.get('/categories')
