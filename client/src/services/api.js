@@ -10,13 +10,33 @@ const api = axios.create({
   }
 })
 
-// In produzione usa dati statici da GitHub
-const GITHUB_RAW = 'https://raw.githubusercontent.com/massimiliano-demiri/goldengoose/main/data'
+// In produzione usa dati locali dalla build
+const getDataPath = (file) => {
+  if (isDev) return null
+  return `/goldengoose/data/${file}`
+}
 
 export const getProducts = async (params = {}) => {
   if (!isDev) {
-    const response = await axios.get(`${GITHUB_RAW}/products.json`)
-    return response.data
+    const response = await axios.get(getDataPath('products.json'))
+    let products = response.data
+    
+    // Applica filtri
+    if (params.category) {
+      products = products.filter(p => p.category === params.category)
+    }
+    if (params.search) {
+      const search = params.search.toLowerCase()
+      products = products.filter(p => 
+        p.name.toLowerCase().includes(search) ||
+        p.description?.toLowerCase().includes(search)
+      )
+    }
+    if (params.inStock === 'true') {
+      products = products.filter(p => p.inStock)
+    }
+    
+    return products
   }
   const response = await api.get('/products', { params })
   return response.data
@@ -42,7 +62,7 @@ export const getCategories = async () => {
 
 export const getPrices = async () => {
   if (!isDev) {
-    const response = await axios.get(`${GITHUB_RAW}/prices.json`)
+    const response = await axios.get(getDataPath('prices.json'))
     return response.data
   }
   const response = await api.get('/prices')
