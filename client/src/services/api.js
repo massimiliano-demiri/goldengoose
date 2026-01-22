@@ -21,14 +21,31 @@ const getDataPath = (file) => {
 
 export const getProducts = async (params = {}) => {
   if (!isDev) {
-    const response = await axios.get(getDataPath('products.json'))
-    let products = response.data
+    const [productsResponse, pricesResponse] = await Promise.all([
+      axios.get(getDataPath('products.json')),
+      axios.get(getDataPath('prices.json'))
+    ])
+    
+    let products = productsResponse.data
+    const prices = pricesResponse.data
     
     // Assicurati che products sia un array
     if (!Array.isArray(products)) {
       console.error('Products is not an array:', products)
       return []
     }
+    
+    // Merge products with prices
+    products = products.map(product => {
+      const priceData = prices[product.id] || {}
+      return {
+        ...product,
+        price: priceData.price || 0,
+        currency: priceData.currency || 'EUR',
+        inStock: priceData.inStock !== undefined ? priceData.inStock : true,
+        discount: product.discount || 0
+      }
+    })
     
     // Applica filtri
     if (params.category) {
@@ -54,7 +71,8 @@ export const getProducts = async (params = {}) => {
 export const getProduct = async (id) => {
   if (!isDev) {
     const products = await getProducts()
-    return products.find(p => p.id === id)
+    const product = products.find(p => p.id === id)
+    return product || null
   }
   const response = await api.get(`/products/${id}`)
   return response.data

@@ -18,9 +18,11 @@ function ProductCard({ product }) {
     ? validImages[0] 
     : 'https://via.placeholder.com/400x400/f3f4f6/9ca3af?text=No+Image'
 
-  const finalPrice = product.discount 
-    ? product.price * (1 - product.discount / 100)
-    : product.price
+  const price = product.price || 0
+  const discount = product.discount || 0
+  const finalPrice = discount > 0 
+    ? price * (1 - discount / 100)
+    : price
 
   return (
     <Link to={`/product/${product.id}`} className="product-card">
@@ -34,8 +36,8 @@ function ProductCard({ product }) {
             e.target.src = 'https://via.placeholder.com/400x400/f3f4f6/9ca3af?text=Image+Error'
           }}
         />
-        {product.discount > 0 && (
-          <span className="discount-badge">-{product.discount}%</span>
+        {discount > 0 && (
+          <span className="discount-badge">-{discount}%</span>
         )}
         {!product.inStock && (
           <span className="stock-badge">Esaurito</span>
@@ -47,13 +49,13 @@ function ProductCard({ product }) {
         <h3 className="product-name">{product.name}</h3>
         
         <div className="product-price">
-          {product.discount > 0 ? (
+          {discount > 0 ? (
             <>
-              <span className="price-original">€{product.price.toFixed(2)}</span>
+              <span className="price-original">€{price.toFixed(2)}</span>
               <span className="price-final">€{finalPrice.toFixed(2)}</span>
             </>
           ) : (
-            <span className="price-final">€{product.price.toFixed(2)}</span>
+            <span className="price-final">€{price.toFixed(2)}</span>
           )}
         </div>
       </div>

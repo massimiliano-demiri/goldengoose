@@ -23,8 +23,12 @@ function ProductDetail() {
   const loadProduct = async () => {
     try {
       setLoading(true)
-      const response = await getProduct(id)
-      const productData = response.data
+      const productData = await getProduct(id)
+      
+      if (!productData) {
+        setError('Prodotto non trovato')
+        return
+      }
       
       // Filtra immagini valide
       if (productData.images) {
