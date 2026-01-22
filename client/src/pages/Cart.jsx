@@ -2,6 +2,14 @@ import { useNavigate } from 'react-router-dom'
 import { useCart } from '../context/CartContext'
 import './Cart.css'
 
+const FALLBACK_THUMB = "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='240'%20height='240'%20viewBox='0%200%20240%20240'%3E%3Crect%20width='100%25'%20height='100%25'%20fill='%23f3f4f6'/%3E%3Ctext%20x='50%25'%20y='50%25'%20dominant-baseline='middle'%20text-anchor='middle'%20fill='%239ca3af'%20font-family='Arial%2Csans-serif'%20font-size='18'%3ENo%20Image%3C/text%3E%3C/svg%3E"
+
+const normalizeImageUrl = (url) => {
+  if (typeof url !== 'string') return ''
+  if (url.startsWith('//')) return `https:${url}`
+  return url
+}
+
 function Cart() {
   const navigate = useNavigate()
   const { cart, removeFromCart, updateQuantity, clearCart, getCartTotal } = useCart()
@@ -39,12 +47,14 @@ function Cart() {
             return (
               <div key={item.id} className="cart-item">
                 <img 
-                  src={item.images && item.images[0] || 'https://via.placeholder.com/120x120?text=No+Image'}
+                  src={(item.images && normalizeImageUrl(item.images[0])) || FALLBACK_THUMB}
                   alt={item.name}
                   className="cart-item-image"
                   onClick={() => navigate(`/products/${item.id}`)}
+                  referrerPolicy="no-referrer"
                   onError={(e) => {
-                    e.target.src = 'https://via.placeholder.com/120x120?text=No+Image'
+                    e.currentTarget.onerror = null
+                    e.currentTarget.src = FALLBACK_THUMB
                   }}
                 />
                 
