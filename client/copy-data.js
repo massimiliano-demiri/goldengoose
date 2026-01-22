@@ -23,10 +23,44 @@ fs.readdirSync(srcDir).forEach(file => {
 
 console.log('✓ Dati sincronizzati in public/data/ per il build');
 
-// Copia index.html come 404.html per il routing di GitHub Pages (dopo il build)
+// Crea un 404.html per GitHub Pages che redirige i deep-link verso HashRouter
 const indexPath = path.join(__dirname, 'dist', 'index.html');
 const notFoundPath = path.join(__dirname, 'dist', '404.html');
 if (fs.existsSync(indexPath)) {
-  fs.copyFileSync(indexPath, notFoundPath);
-  console.log('✓ Creato 404.html per GitHub Pages routing');
+  const base = '/goldengoose/';
+  const html = `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        var base = ${JSON.stringify(base)};
+        var path = window.location.pathname || '/';
+        var search = window.location.search || '';
+        var hash = window.location.hash || '';
+        // If we already have a hash route, just go to app root
+        if (hash && hash.startsWith('#/')) {
+          window.location.replace(window.location.origin + base + hash + search);
+          return;
+        }
+        // Strip base from pathname to build the hash route
+        var route = '/';
+        if (path.startsWith(base)) {
+          route = '/' + path.slice(base.length).replace(/^\/+/, '');
+        }
+        // Normalize to "/" for empty route
+        if (route === '//') route = '/';
+        window.location.replace(window.location.origin + base + '#'+ route + search);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting…</p>
+  </body>
+</html>`;
+
+  fs.writeFileSync(notFoundPath, html, 'utf8');
+  console.log('✓ Creato 404.html (redirect) per GitHub Pages routing');
 }
