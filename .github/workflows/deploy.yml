@@ -39,6 +39,7 @@ jobs:
           CACHE_IMAGES: '1'
           CACHE_IMAGES_MAX: '1'
           CACHE_IMAGES_CONCURRENCY: '8'
+          VITE_BUILD_SHA: ${{ github.sha }}
         run: npm run build
           
       - name: Setup Pages

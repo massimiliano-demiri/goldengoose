@@ -11,12 +11,20 @@ const api = axios.create({
   }
 })
 
+const BUILD_CACHE_BUSTER = import.meta.env.VITE_BUILD_SHA || ''
+
+const withCacheBuster = (url) => {
+  if (!BUILD_CACHE_BUSTER) return url
+  const joiner = url.includes('?') ? '&' : '?'
+  return `${url}${joiner}v=${encodeURIComponent(BUILD_CACHE_BUSTER)}`
+}
+
 // In produzione usa dati locali dalla build
 const getDataPath = (file) => {
   if (isDev) return null
   // Usa il base URL di Vite per il path corretto
   const base = import.meta.env.BASE_URL || '/goldengoose/'
-  return `${base}data/${file}`
+  return withCacheBuster(`${base}data/${file}`)
 }
 
 export const getProducts = async (params = {}) => {
