@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { CartProvider } from './context/CartContext'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
@@ -12,11 +12,9 @@ import Admin from './pages/Admin'
 import './App.css'
 
 function App() {
-  const basename = import.meta.env.BASE_URL || '/'
-  
   return (
     <CartProvider>
-      <Router basename={basename}>
+      <Router>
         <div className="app">
           <Navbar />
           <main className="main-content">
