@@ -4,6 +4,14 @@ import { useCart } from '../context/CartContext'
 import { getProduct } from '../services/api'
 import './ProductDetail.css'
 
+const FALLBACK_IMAGE = "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='800'%20height='800'%20viewBox='0%200%20800%20800'%3E%3Crect%20width='100%25'%20height='100%25'%20fill='%23f3f4f6'/%3E%3Ctext%20x='50%25'%20y='50%25'%20dominant-baseline='middle'%20text-anchor='middle'%20fill='%239ca3af'%20font-family='Arial%2Csans-serif'%20font-size='32'%3ENo%20Image%3C/text%3E%3C/svg%3E"
+
+const normalizeImageUrl = (url) => {
+  if (typeof url !== 'string') return ''
+  if (url.startsWith('//')) return `https:${url}`
+  return url
+}
+
 function ProductDetail() {
   const { id } = useParams()
   const navigate = useNavigate()
@@ -33,6 +41,7 @@ function ProductDetail() {
       // Filtra immagini valide
       if (productData.images) {
         productData.images = productData.images.filter(img => {
+          if (typeof img !== 'string') return false
           const url = img.toLowerCase()
           const invalidPatterns = ['logo', 'watermark', 'qrcode', '/avatar/', 'banner', 'icon',
                                   'wechat', 'whatsapp', 'contact', '_logo', 'yupoo_logo']
@@ -80,12 +89,14 @@ function ProductDetail() {
         <div className="product-gallery">
           <div className="main-image-container">
             <img 
-              src={product.images && product.images[selectedImage] || 'https://via.placeholder.com/800x800/f3f4f6/9ca3af?text=No+Image'}
+              src={(product.images && normalizeImageUrl(product.images[selectedImage])) || FALLBACK_IMAGE}
               alt={product.name}
               className="main-image"
               loading="eager"
+              referrerPolicy="no-referrer"
               onError={(e) => {
-                e.target.src = 'https://via.placeholder.com/800x800/f3f4f6/9ca3af?text=Image+Error'
+                e.currentTarget.onerror = null
+                e.currentTarget.src = FALLBACK_IMAGE
               }}
             />
           </div>
@@ -95,13 +106,15 @@ function ProductDetail() {
               {product.images.map((img, index) => (
                 <img
                   key={index}
-                  src={img}
+                  src={normalizeImageUrl(img) || FALLBACK_IMAGE}
                   alt={`${product.name} ${index + 1}`}
                   className={`thumbnail ${selectedImage === index ? 'active' : ''}`}
                   onClick={() => setSelectedImage(index)}
                   loading="lazy"
+                  referrerPolicy="no-referrer"
                   onError={(e) => {
-                    e.target.src = 'https://via.placeholder.com/150x150/f3f4f6/9ca3af?text=Error'
+                    e.currentTarget.onerror = null
+                    e.currentTarget.src = FALLBACK_IMAGE
                   }}
                 />
               ))}
