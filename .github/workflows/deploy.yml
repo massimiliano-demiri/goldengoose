@@ -35,6 +35,10 @@ jobs:
           
       - name: Build
         working-directory: ./client
+        env:
+          CACHE_IMAGES: '1'
+          CACHE_IMAGES_MAX: '1'
+          CACHE_IMAGES_CONCURRENCY: '8'
         run: npm run build
           
       - name: Setup Pages
